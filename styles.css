@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #bfbfbf;
   font-family: "Roboto", sans-serif;
 }
 
@@ -20,8 +19,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: none;
+  background-color: #1f2937;
   color: #fff;
   padding: 10px 20px;
 }
@@ -35,7 +33,6 @@ body {
 /* Style the anchor tags */
 .navbar-links {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
