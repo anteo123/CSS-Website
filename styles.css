@@ -7,3 +7,41 @@ body {
   background-color: #bfbfbf;
   font-family: "Roboto", sans-serif;
 }
+
+.head {
+  display: flex;
+}
+.head img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* Style the navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: none;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+/* Style the logo */
+.navbar-logo img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+/* Style the anchor tags */
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
