@@ -6,20 +6,13 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
-.head {
-  display: flex;
+.hero {
+  background-color: #1f2937;
 }
-.head img {
-  width: 100px;
-  border-radius: 50%;
-}
-
 /* Style the navigation bar */
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #1f2937;
   color: #fff;
   padding: 10px 20px;
 }
