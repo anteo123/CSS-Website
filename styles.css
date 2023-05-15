@@ -35,3 +35,82 @@ body {
   margin-left: 20px;
   font-size: 18px;
 }
+
+.infoweb {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.infoweb h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.infoweb img {
+  width: 180px;
+  padding-left: 10px;
+  margin-bottom: 50px;
+  border-radius: 60%;
+}
+
+.infoweb p {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-bottom: 10px;
+}
+
+.infoweb button {
+  width: 90px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  font-weight: 700;
+}
+
+.infoweb button:hover {
+  background-color: #e5e7eb;
+  color: #3882f6;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .infoweb h1 {
+    font-size: 28px;
+    color: #f9faf8;
+    padding: 0px 0px 10px 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .infoweb p {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 0px 0px 10px 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .infoweb button {
+    width: 90px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .infoweb img {
+    width: 150px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    border-radius: 60%;
+    padding-right: 10px;
+  }
+}
