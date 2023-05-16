@@ -147,6 +147,15 @@ span {
   border-radius: 5px;
   margin-top: 18px;
   margin-left: 50px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.calltoact button:hover {
+  background-color: #e5e7eb;
+  color: #3882f6;
+  cursor: pointer;
 }
 
 /* Responsive Mobile */
