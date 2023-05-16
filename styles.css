@@ -47,22 +47,16 @@ body {
   color: #f9faf8;
   font-weight: 800;
 }
-
+.infoweb p {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-bottom: 10px;
+}
 .infoweb img {
   width: 180px;
   padding-left: 10px;
   margin-bottom: 50px;
   border-radius: 60%;
-}
-.card-info:hover {
-  transform: scale(1.1);
-  transition: 0.8s ease;
-}
-
-.infoweb p {
-  font-size: 18px;
-  color: #e5e7eb;
-  padding-bottom: 10px;
 }
 
 .infoweb button {
@@ -103,6 +97,11 @@ h2 {
   color: #1f2937;
 }
 
+.card-info:hover {
+  transform: scale(1.1);
+  transition: 0.8s ease;
+}
+
 .card-info picture img {
   width: 100%;
   border-radius: 5px 5px 0px 0px;
@@ -113,6 +112,15 @@ h2 {
   padding: 15px;
 }
 
+.quote {
+  text-align: center;
+  background-color: #e5e7eb;
+  padding: 100px 0px 100px 0px;
+  margin-bottom: 50px;
+}
+p span {
+  font-size: 22px;
+}
 /* Responsive Mobile */
 
 @media screen and (max-width: 600px) {
