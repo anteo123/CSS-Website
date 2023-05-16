@@ -135,9 +135,9 @@ span {
 
 @media screen and (max-width: 600px) {
   .infoweb h1 {
-    font-size: 28px;
+    font-size: 18px;
     color: #f9faf8;
-    padding: 0px 0px 15px 15px;
+    padding-left: 20px;
   }
 }
 
@@ -145,7 +145,7 @@ span {
   .infoweb p {
     font-size: 18px;
     color: #e5e7eb;
-    padding: 0px 0px 15px 15px;
+    padding: 10px 0px 0px 20px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -157,7 +157,7 @@ span {
     color: #e5e7eb;
     background-color: #3882f6;
     font-weight: 700;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 }
 
@@ -172,5 +172,18 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .quote p {
+    font-size: 14px;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .quote span {
+    display: inline;
   }
 }
