@@ -50,7 +50,7 @@ body {
 .infoweb p {
   font-size: 18px;
   color: #e5e7eb;
-  padding-bottom: 10px;
+  padding: 10px 0px 10px 0px;
 }
 .infoweb img {
   width: 450px;
@@ -96,15 +96,12 @@ h2 {
   color: #1f2937;
 }
 .card-info p {
-  padding: 5px;
+  padding: 15px;
 }
 
 .card-info:hover {
   transform: scale(1.1);
   transition: 0.8s ease;
-}
-.card.info p {
-  padding: 10px 10px 10px 10px;
 }
 
 .card-info picture img {
