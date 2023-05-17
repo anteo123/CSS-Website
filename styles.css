@@ -243,7 +243,8 @@ footer a:hover {
 
 @media screen and (max-width: 600px) {
   .quote span {
-    display: inline;
+    display: block;
+    padding: 5px;
   }
 }
 
