@@ -158,6 +158,30 @@ span {
   cursor: pointer;
 }
 
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  padding: 50px;
+}
+footer a {
+  text-decoration: none;
+  color: #e5e7eb;
+  border: 1px solid whitesmoke;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+footer p {
+  color: #e5e7eb;
+  margin-top: 20px;
+}
+
+footer a:hover {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  transition: 0.5s;
+}
+
 /* Responsive Mobile */
 
 @media screen and (max-width: 600px) {
